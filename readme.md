@@ -84,6 +84,8 @@ Using them together creates a powerful trading workflow.
 
 ## Development Architecture
 
+This project leverages TypeScript for static typing, enhancing code quality and maintainability.
+
 ├── readme.md
 └── src
     ├── app
@@ -102,7 +104,27 @@ Using them together creates a powerful trading workflow.
         - API slice definitions for TradingView (e.g., fetching market data, indicator data).
         - API slice definitions for Robinhood (e.g., fetching account details, placing orders, fetching positions).
 
-This architecture promotes separation of concerns, maintainability, and allows for efficient state management and data fetching when dealing with data from multiple sources.
+This architecture, utilizing TypeScript, promotes separation of concerns, maintainability, and allows for efficient state management and data fetching when dealing with data from multiple sources.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm or yarn
+- Expo CLI: `npm install -g expo-cli`
+- TypeScript (globally or as a project dependency): `npm install -g typescript` or ensure it's in your project's devDependencies.
+- A `tsconfig.json` file should be present in the root of your project. If not, you can generate one using `tsc --init` (though Expo projects often come with a pre-configured one).
+- An account with [TradingView](https://www.tradingview.com/) and [Robinhood](https://robinhood.com/).
+
+### Installation
+1.  **Clone the repository:** Instructions on how to clone your project.
+2.  **Install dependencies:** Commands for `npm install` 
+3.  **Set up environment variables:** Guidance on creating a `.env` file for API keys and other configurations, along with a security note.
+
+### Running the Application
+1.  **Start the Metro Bundler:** Commands for `expo web`
+2.  **Run on a device or simulator:** Instructions for launching the app on iOS, Android (using the Expo Go app), and in a web browser.
 
 ## Conclusion
 
