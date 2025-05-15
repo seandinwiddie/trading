@@ -69,6 +69,14 @@ This guide demonstrates how to combine TradingView's analytical tools with Robin
 ## Overview
 This advanced guide demonstrates how to use the TradingView and Robinhood APIs to automate your crypto trading strategy, removing manual steps and enabling programmatic trading decisions.
 
+## rtk query
+- getMarketData
+- getIndicatorData
+- getAccount
+- getPositions
+- getOrder
+- getStopLoss
+
 ## Required Resources
 
 ### TradingView API Resources
@@ -266,4 +274,23 @@ async function maStrategyCheck() {
 - **Technical Knowledge**: Requires programming expertise
 - **API Changes**: Unofficial APIs may change without notice
 
-*Disclaimer: Trading cryptocurrency involves substantial risk. This code is for educational purposes only. Always thoroughly test any trading system before deploying with real funds.*
+# Using TradingView and Robinhood for Educated Crypto Trading v3 - src/util/automaticTradingEngine.ts & src/util/bot.ts
+
+## Overview
+This file contains the core logic for the automatic trading engine.
+
+## trading strategies and styles
+
+### trading styles
+- scalping
+- day trading
+- swing trading
+- position trading  
+
+### trading strategies
+- moving average crossover
+- relative strength index (RSI)
+- moving average convergence divergence (MACD)
+- Bollinger Bands
+
+### algorithms functions in src/util/automaticTradingEngine.ts
