@@ -2,75 +2,78 @@
 
 ## Priority 1: Project Setup & Architecture
 
-- [ ] Set up basic project structure and navigation with Expo Router
-- [ ] Configure TypeScript and ESLint settings
-- [ ] Create initial state management with Redux Toolkit
-- [ ] Set up API connection architecture for TradingView and Robinhood
-- [ ] Create environment variable configuration for API keys
-- [ ] Design and implement basic UI layout and navigation flow
+1. [ ] Set up basic project structure and navigation with Expo Router
+    1. [x] Initialize Expo project
+    2. [ ] Install and configure Expo Router
+    3. [ ] Define initial app layout - lets do a single screen for now; a dashboard that reconfigures visually based on the buttons pressed.
+2. [ ] Configure TypeScript and ESLint settings
+3. [ ] Create initial state management with Redux Toolkit
+4. [ ] Set up API connection architecture for TradingView and Robinhood
+5. [ ] Create environment variable configuration for API keys
+6. [ ] Design and implement basic UI layout and navigation flow
 
 ## Priority 2: Core Features Development
 
-- [ ] Implement TradingView API integration for market data
-  - [ ] Create API service for fetching chart data
-  - [ ] Implement technical indicator calculations
-  - [ ] Set up WebSocket connections for real-time data
+7. [ ] Implement TradingView API integration for market data
+  1. [ ] Create API service for fetching chart data
+  2. [ ] Implement technical indicator calculations
+  3. [ ] Set up WebSocket connections for real-time data
   
-- [ ] Implement Robinhood API integration
-  - [ ] Set up authentication flow
-  - [ ] Create services for account data retrieval
-  - [ ] Implement order creation and management
-  - [ ] Build position monitoring functionality
+8. [ ] Implement Robinhood API integration
+  1. [ ] Set up authentication flow
+  2. [ ] Create services for account data retrieval
+  3. [ ] Implement order creation and management
+  4. [ ] Build position monitoring functionality
   
-- [ ] Develop synchronization between platforms
-  - [ ] Create watchlist synchronization
-  - [ ] Implement alerts management
-  - [ ] Build portfolio tracking dashboard
+9. [ ] Develop synchronization between platforms
+  1. [ ] Create watchlist synchronization
+  2. [ ] Implement alerts management
+  3. [ ] Build portfolio tracking dashboard
 
 ## Priority 3: Trading Strategies Implementation
 
-- [ ] Create Moving Average Crossover strategy implementation
-- [ ] Implement RSI-based strategy
-- [ ] Develop MACD-based strategy
-- [ ] Build Bollinger Bands strategy
-- [ ] Create combined strategy framework
+10. [ ] Create Moving Average Crossover strategy implementation
+11. [ ] Implement RSI-based strategy
+12. [ ] Develop MACD-based strategy
+13. [ ] Build Bollinger Bands strategy
+14. [ ] Create combined strategy framework
 
 ## Priority 4: Risk Management & Analysis
 
-- [ ] Implement position sizing calculator
-- [ ] Create risk/reward ratio analyzer
-- [ ] Develop stop-loss management system
-- [ ] Build trade journal and analytics dashboard
-- [ ] Implement backtest functionality for strategies
+15. [ ] Implement position sizing calculator
+16. [ ] Create risk/reward ratio analyzer
+17. [ ] Develop stop-loss management system
+18. [ ] Build trade journal and analytics dashboard
+19. [ ] Implement backtest functionality for strategies
 
 ## Priority 5: UI/UX Development
 
-- [ ] Design and implement chart component
-- [ ] Create order entry forms
-- [ ] Build strategy configuration screens
-- [ ] Implement trade execution confirmation flow
-- [ ] Design and build settings and preferences screens
+20. [ ] Design and implement chart component
+21. [ ] Create order entry forms
+22. [ ] Build strategy configuration screens
+23. [ ] Implement trade execution confirmation flow
+24. [ ] Design and build settings and preferences screens
 
 ## Priority 6: Testing & Deployment
 
-- [ ] Write unit tests for core functionality
-- [ ] Implement integration tests for API connections
-- [ ] Create end-to-end testing for trading flows
-- [ ] Set up CI/CD pipeline
-- [ ] Prepare app for deployment to Expo/app stores
+25. [ ] Write unit tests for core functionality
+26. [ ] Implement integration tests for API connections
+27. [ ] Create end-to-end testing for trading flows
+28. [ ] Set up CI/CD pipeline
+29. [ ] Prepare app for deployment to Expo/app stores
 
 ## Priority 7: Documentation & Education
 
-- [ ] Create user documentation
-- [ ] Build strategy education resources
-- [ ] Document API integrations
-- [ ] Create troubleshooting guide
-- [ ] Develop tutorial content for new users
+30. [ ] Create user documentation
+31. [ ] Build strategy education resources
+32. [ ] Document API integrations
+33. [ ] Create troubleshooting guide
+34. [ ] Develop tutorial content for new users
 
 ## Future Enhancements
 
-- [ ] Implement automated trading based on alerts
-- [ ] Add social trading features
-- [ ] Build a custom indicators library
-- [ ] Integrate additional data sources
-- [ ] Develop AI-assisted trade recommendations 
+35. [ ] Implement automated trading based on alerts
+36. [ ] Add social trading features
+37. [ ] Build a custom indicators library
+38. [ ] Integrate additional data sources
+39. [ ] Develop AI-assisted trade recommendations 
